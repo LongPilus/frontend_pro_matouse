@@ -1,0 +1,71 @@
+
+
+#logo_img {
+
+    height: 25px;
+
+}
+
+#logo_container {
+
+    margin-bottom: 50px;
+
+}
+
+#headlineBar_container {
+
+    width: 100%;
+
+    font-family: 'Unbounded';
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+#headlineBar_text {
+    width: auto;
+    margin-right: auto;
+}
+
+#headlineBar_search_container {
+
+    flex: 1;
+    /* max-width: 600px; */
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding-left: 15px;
+}
+
+#headlineBar_search_icon {
+
+    height: 20px;
+
+}
+
+#headlineBar_search {
+
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    font-family: 'Inter';
+    font-size: 15px;
+
+}
+
+#headlineBar_search:focus {
+
+    outline: none;
+
+}

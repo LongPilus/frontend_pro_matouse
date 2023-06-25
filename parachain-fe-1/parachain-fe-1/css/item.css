@@ -1,0 +1,43 @@
+
+
+.item {
+
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+
+    display: grid;
+    grid-template-columns: 2fr 5fr 5fr 1fr;
+    gap: 10px;
+
+    overflow: hidden;
+
+}
+
+.item_property {
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.item_name {
+
+    font-weight: bold;
+
+}
+
+.item_id {
+    text-align: left;
+}
+
+.item_similae {
+    text-align: left;
+}
+
+.item_amount {
+
+    font-weight: bold;
+    text-align: right;
+
+}
